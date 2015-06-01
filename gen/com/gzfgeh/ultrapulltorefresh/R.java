@@ -21,7 +21,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dot_radius=0x7f010009;
+        public static final int dot_radius=0x7f010000;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -29,7 +29,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dot_selected_color=0x7f01000c;
+        public static final int dot_selected_color=0x7f010003;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -39,7 +39,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dot_span=0x7f01000a;
+        public static final int dot_span=0x7f010001;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -47,13 +47,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dot_unselected_color=0x7f01000b;
+        public static final int dot_unselected_color=0x7f010002;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int more_action_dot_color=0x7f01000f;
+        public static final int more_action_dot_color=0x7f010006;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -63,7 +63,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int more_action_dot_radius=0x7f01000d;
+        public static final int more_action_dot_radius=0x7f010004;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -73,11 +73,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int more_action_dot_span=0x7f01000e;
+        public static final int more_action_dot_span=0x7f010005;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptr_content=0x7f010001;
+        public static final int ptr_content=0x7f01000f;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -85,7 +85,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_duration_to_close=0x7f010004;
+        public static final int ptr_duration_to_close=0x7f010012;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -93,12 +93,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_duration_to_close_header=0x7f010005;
+        public static final int ptr_duration_to_close_header=0x7f010013;
         /**  Optional. If you put header and content in xml, you can you these to specify them. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptr_header=0x7f010000;
+        public static final int ptr_header=0x7f01000e;
         /**  keep header when refreshing
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -107,7 +107,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_keep_header_when_refresh=0x7f010007;
+        public static final int ptr_keep_header_when_refresh=0x7f010015;
         /**  pull to refresh, otherwise release to refresh, default is release to refresh 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -116,7 +116,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_pull_to_fresh=0x7f010006;
+        public static final int ptr_pull_to_fresh=0x7f010014;
         /**  the ration of the height of the header to trigger refresh 
          <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
@@ -125,7 +125,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_ratio_of_header_height_to_refresh=0x7f010003;
+        public static final int ptr_ratio_of_header_height_to_refresh=0x7f010011;
         /**  the resistance when you are moving the frame 
          <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
@@ -134,19 +134,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int ptr_resistance=0x7f010002;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int ptr_rotate_ani_time=0x7f010008;
+        public static final int ptr_resistance=0x7f010010;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int scrollheaderframe_conent_container=0x7f010011;
+        public static final int scrollheaderframe_conent_container=0x7f010008;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -154,23 +146,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int scrollheaderframe_disable=0x7f010013;
+        public static final int scrollheaderframe_disable=0x7f01000a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int scrollheaderframe_footer=0x7f010012;
+        public static final int scrollheaderframe_footer=0x7f010009;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int scrollheaderframe_header=0x7f010010;
+        public static final int scrollheaderframe_header=0x7f010007;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int slider_banner_indicator=0x7f010014;
+        public static final int slider_banner_indicator=0x7f01000b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int slider_banner_pager=0x7f010015;
+        public static final int slider_banner_pager=0x7f01000c;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -178,54 +170,54 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int slider_banner_time_interval=0x7f010016;
+        public static final int slider_banner_time_interval=0x7f01000d;
     }
     public static final class color {
-        public static final int card_background=0x7f05000a;
-        public static final int card_shadow=0x7f05000b;
+        public static final int card_background=0x7f04000a;
+        public static final int card_shadow=0x7f04000b;
         /**  A really bright Holo shade of blue 
          */
-        public static final int cube_holo_blue_bright=0x7f050009;
+        public static final int cube_holo_blue_bright=0x7f040009;
         /**  A dark Holo shade of blue 
          */
-        public static final int cube_holo_blue_dark=0x7f050003;
+        public static final int cube_holo_blue_dark=0x7f040003;
         /**  A light Holo shade of blue 
          */
-        public static final int cube_holo_blue_light=0x7f050000;
+        public static final int cube_holo_blue_light=0x7f040000;
         /**  A dark Holo shade of green 
          */
-        public static final int cube_holo_green_dark=0x7f050004;
+        public static final int cube_holo_green_dark=0x7f040004;
         /**  A light Holo shade of green 
          */
-        public static final int cube_holo_green_light=0x7f050001;
+        public static final int cube_holo_green_light=0x7f040001;
         /**  A dark Holo shade of orange 
          */
-        public static final int cube_holo_orange_dark=0x7f050008;
+        public static final int cube_holo_orange_dark=0x7f040008;
         /**  A light Holo shade of orange 
          */
-        public static final int cube_holo_orange_light=0x7f050007;
+        public static final int cube_holo_orange_light=0x7f040007;
         /**  A Holo shade of purple 
          */
-        public static final int cube_holo_purple=0x7f050006;
+        public static final int cube_holo_purple=0x7f040006;
         /**  A dark Holo shade of red 
          */
-        public static final int cube_holo_red_dark=0x7f050005;
+        public static final int cube_holo_red_dark=0x7f040005;
         /**  A light Holo shade of red 
          */
-        public static final int cube_holo_red_light=0x7f050002;
-        public static final int cube_mints_333333=0x7f05000f;
-        public static final int cube_mints_4d90fe=0x7f050018;
-        public static final int cube_mints_666666=0x7f050011;
-        public static final int cube_mints_999999=0x7f050012;
-        public static final int cube_mints_app_base_background=0x7f050015;
-        public static final int cube_mints_base_font_color=0x7f050016;
-        public static final int cube_mints_black=0x7f050014;
-        public static final int cube_mints_cccccc=0x7f050010;
-        public static final int cube_mints_f1f1f1=0x7f050013;
-        public static final int cube_mints_main_color=0x7f050017;
-        public static final int cube_mints_white=0x7f05000e;
-        public static final int lite_blue=0x7f05000c;
-        public static final int window_background=0x7f05000d;
+        public static final int cube_holo_red_light=0x7f040002;
+        public static final int cube_mints_333333=0x7f04000f;
+        public static final int cube_mints_4d90fe=0x7f040018;
+        public static final int cube_mints_666666=0x7f040011;
+        public static final int cube_mints_999999=0x7f040012;
+        public static final int cube_mints_app_base_background=0x7f040015;
+        public static final int cube_mints_base_font_color=0x7f040016;
+        public static final int cube_mints_black=0x7f040014;
+        public static final int cube_mints_cccccc=0x7f040010;
+        public static final int cube_mints_f1f1f1=0x7f040013;
+        public static final int cube_mints_main_color=0x7f040017;
+        public static final int cube_mints_white=0x7f04000e;
+        public static final int lite_blue=0x7f04000c;
+        public static final int window_background=0x7f04000d;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -249,10 +241,9 @@ containing a value of this type.
         public static final int cube_mints_icon_top_back=0x7f020005;
         public static final int cube_mints_update_progressbar=0x7f020006;
         public static final int ic_launcher=0x7f020007;
-        public static final int ptr_rotate_arrow=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a001d;
+        public static final int action_settings=0x7f0a0018;
         public static final int cube_dialog_bottom=0x7f0a0008;
         public static final int cube_dialog_content_container=0x7f0a0004;
         public static final int cube_dialog_message=0x7f0a0007;
@@ -261,7 +252,7 @@ containing a value of this type.
         public static final int cube_mints_base_list_menu_item_title=0x7f0a0012;
         public static final int cube_mints_content_frame_content=0x7f0a000b;
         public static final int cube_mints_content_frame_title_header=0x7f0a000a;
-        public static final int cube_views_load_more_default_footer_text_view=0x7f0a001c;
+        public static final int cube_views_load_more_default_footer_text_view=0x7f0a0017;
         public static final int fragment_block_menu_block_list=0x7f0a000c;
         public static final int iv_title_bar_left=0x7f0a000e;
         public static final int ly_title_bar_center=0x7f0a000f;
@@ -269,11 +260,6 @@ containing a value of this type.
         public static final int ly_title_bar_right=0x7f0a0011;
         public static final int material_background=0x7f0a0003;
         public static final int message_content_view=0x7f0a0006;
-        public static final int ptr_classic_header_rotate_view=0x7f0a001a;
-        public static final int ptr_classic_header_rotate_view_header_last_update=0x7f0a0019;
-        public static final int ptr_classic_header_rotate_view_header_text=0x7f0a0017;
-        public static final int ptr_classic_header_rotate_view_header_title=0x7f0a0018;
-        public static final int ptr_classic_header_rotate_view_progressbar=0x7f0a001b;
         public static final int store_house_ptr_frame=0x7f0a0000;
         public static final int store_house_ptr_image=0x7f0a0002;
         public static final int store_house_ptr_image_content=0x7f0a0001;
@@ -292,36 +278,25 @@ containing a value of this type.
         public static final int cube_mints_base_header_bar_title=0x7f030005;
         public static final int cube_mints_base_list_menu_item=0x7f030006;
         public static final int cube_mints_update_notify=0x7f030007;
-        public static final int cube_ptr_classic_default_header=0x7f030008;
-        public static final int cube_ptr_simple_loading=0x7f030009;
-        public static final int cube_views_load_more_default_footer=0x7f03000a;
+        public static final int cube_views_load_more_default_footer=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_settings=0x7f04000f;
-        public static final int app_name=0x7f040010;
-        public static final int cube_mints_exit_tip=0x7f04000e;
-        public static final int cube_photo_can_not_open_album=0x7f040015;
-        public static final int cube_photo_can_not_use_camera=0x7f040013;
-        public static final int cube_photo_no_camera=0x7f040012;
-        public static final int cube_photo_no_enough_space=0x7f040014;
-        public static final int cube_ptr_hours_ago=0x7f040008;
-        public static final int cube_ptr_last_update=0x7f040005;
-        public static final int cube_ptr_minutes_ago=0x7f040007;
-        public static final int cube_ptr_pull_down=0x7f040000;
-        public static final int cube_ptr_pull_down_to_refresh=0x7f040001;
-        public static final int cube_ptr_refresh_complete=0x7f040004;
-        public static final int cube_ptr_refreshing=0x7f040003;
-        public static final int cube_ptr_release_to_refresh=0x7f040002;
-        public static final int cube_ptr_seconds_ago=0x7f040006;
-        public static final int cube_views_load_more_click_to_load_more=0x7f04000a;
-        public static final int cube_views_load_more_error=0x7f04000d;
-        public static final int cube_views_load_more_loaded_empty=0x7f04000c;
-        public static final int cube_views_load_more_loaded_no_more=0x7f04000b;
-        public static final int cube_views_load_more_loading=0x7f040009;
-        public static final int hello_world=0x7f040011;
+        public static final int action_settings=0x7f050006;
+        public static final int app_name=0x7f050007;
+        public static final int cube_mints_exit_tip=0x7f050005;
+        public static final int cube_photo_can_not_open_album=0x7f05000c;
+        public static final int cube_photo_can_not_use_camera=0x7f05000a;
+        public static final int cube_photo_no_camera=0x7f050009;
+        public static final int cube_photo_no_enough_space=0x7f05000b;
+        public static final int cube_views_load_more_click_to_load_more=0x7f050001;
+        public static final int cube_views_load_more_error=0x7f050004;
+        public static final int cube_views_load_more_loaded_empty=0x7f050003;
+        public static final int cube_views_load_more_loaded_no_more=0x7f050002;
+        public static final int cube_views_load_more_loading=0x7f050000;
+        public static final int hello_world=0x7f050008;
     }
     public static final class style {
         /** 
@@ -373,7 +348,7 @@ containing a value of this type.
            @see #DotView_dot_unselected_color
          */
         public static final int[] DotView = {
-            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003
         };
         /**
           <p>This symbol is the offset where the {@link com.gzfgeh.ultrapulltorefresh.R.attr#dot_radius}
@@ -450,7 +425,7 @@ containing a value of this type.
            @see #MoreActionView_more_action_dot_span
          */
         public static final int[] MoreActionView = {
-            0x7f01000d, 0x7f01000e, 0x7f01000f
+            0x7f010004, 0x7f010005, 0x7f010006
         };
         /**
           <p>This symbol is the offset where the {@link com.gzfgeh.ultrapulltorefresh.R.attr#more_action_dot_color}
@@ -496,33 +471,6 @@ containing a value of this type.
           @attr name com.gzfgeh.ultrapulltorefresh:more_action_dot_span
         */
         public static final int MoreActionView_more_action_dot_span = 1;
-        /** Attributes that can be used with a PtrClassicHeader.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PtrClassicHeader_ptr_rotate_ani_time com.gzfgeh.ultrapulltorefresh:ptr_rotate_ani_time}</code></td><td></td></tr>
-           </table>
-           @see #PtrClassicHeader_ptr_rotate_ani_time
-         */
-        public static final int[] PtrClassicHeader = {
-            0x7f010008
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.gzfgeh.ultrapulltorefresh.R.attr#ptr_rotate_ani_time}
-          attribute's value can be found in the {@link #PtrClassicHeader} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.gzfgeh.ultrapulltorefresh:ptr_rotate_ani_time
-        */
-        public static final int PtrClassicHeader_ptr_rotate_ani_time = 0;
         /** Attributes that can be used with a PtrFrameLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -548,8 +496,8 @@ containing a value of this type.
            @see #PtrFrameLayout_ptr_resistance
          */
         public static final int[] PtrFrameLayout = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015
         };
         /**
           <p>This symbol is the offset where the {@link com.gzfgeh.ultrapulltorefresh.R.attr#ptr_content}
@@ -682,7 +630,7 @@ containing a value of this type.
            @see #ScrollHeaderFrame_scrollheaderframe_header
          */
         public static final int[] ScrollHeaderFrame = {
-            0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013
+            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a
         };
         /**
           <p>This symbol is the offset where the {@link com.gzfgeh.ultrapulltorefresh.R.attr#scrollheaderframe_conent_container}
@@ -743,7 +691,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SliderBanner_slider_banner_time_interval
          */
         public static final int[] SliderBanner = {
-            0x7f010014, 0x7f010015, 0x7f010016
+            0x7f01000b, 0x7f01000c, 0x7f01000d
         };
         /**
           <p>This symbol is the offset where the {@link com.gzfgeh.ultrapulltorefresh.R.attr#slider_banner_indicator}
