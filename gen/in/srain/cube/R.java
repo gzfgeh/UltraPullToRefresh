@@ -69,27 +69,27 @@ public final class R {
 		public static final int cube_mints_update_progressbar = 0x7f020006;
 	}
 	public static final class id {
-		public static final int cube_dialog_bottom = 0x7f0a0008;
-		public static final int cube_dialog_content_container = 0x7f0a0004;
-		public static final int cube_dialog_message = 0x7f0a0007;
-		public static final int cube_dialog_title = 0x7f0a0005;
-		public static final int cube_mints_base_block_menu_item_title = 0x7f0a0009;
-		public static final int cube_mints_base_list_menu_item_title = 0x7f0a0012;
-		public static final int cube_mints_content_frame_content = 0x7f0a000b;
-		public static final int cube_mints_content_frame_title_header = 0x7f0a000a;
-		public static final int cube_views_load_more_default_footer_text_view = 0x7f0a0017;
-		public static final int fragment_block_menu_block_list = 0x7f0a000c;
-		public static final int iv_title_bar_left = 0x7f0a000e;
-		public static final int ly_title_bar_center = 0x7f0a000f;
-		public static final int ly_title_bar_left = 0x7f0a000d;
-		public static final int ly_title_bar_right = 0x7f0a0011;
-		public static final int material_background = 0x7f0a0003;
-		public static final int message_content_view = 0x7f0a0006;
-		public static final int tv_title_bar_title = 0x7f0a0010;
-		public static final int update_notification_icon = 0x7f0a0014;
-		public static final int update_notification_layout = 0x7f0a0013;
-		public static final int update_notification_progress = 0x7f0a0016;
-		public static final int update_notification_text = 0x7f0a0015;
+		public static final int cube_dialog_bottom = 0x7f0a0007;
+		public static final int cube_dialog_content_container = 0x7f0a0003;
+		public static final int cube_dialog_message = 0x7f0a0006;
+		public static final int cube_dialog_title = 0x7f0a0004;
+		public static final int cube_mints_base_block_menu_item_title = 0x7f0a0008;
+		public static final int cube_mints_base_list_menu_item_title = 0x7f0a0011;
+		public static final int cube_mints_content_frame_content = 0x7f0a000a;
+		public static final int cube_mints_content_frame_title_header = 0x7f0a0009;
+		public static final int cube_views_load_more_default_footer_text_view = 0x7f0a0016;
+		public static final int fragment_block_menu_block_list = 0x7f0a000b;
+		public static final int iv_title_bar_left = 0x7f0a000d;
+		public static final int ly_title_bar_center = 0x7f0a000e;
+		public static final int ly_title_bar_left = 0x7f0a000c;
+		public static final int ly_title_bar_right = 0x7f0a0010;
+		public static final int material_background = 0x7f0a0002;
+		public static final int message_content_view = 0x7f0a0005;
+		public static final int tv_title_bar_title = 0x7f0a000f;
+		public static final int update_notification_icon = 0x7f0a0013;
+		public static final int update_notification_layout = 0x7f0a0012;
+		public static final int update_notification_progress = 0x7f0a0015;
+		public static final int update_notification_text = 0x7f0a0014;
 	}
 	public static final class layout {
 		public static final int cube_material_dialog = 0x7f030001;

@@ -4,33 +4,31 @@
     android:layout_height="match_parent"
     android:background="#333333">
 
-    <in.srain.cube.views.ptr.PtrFrameLayout
-        android:id="@+id/store_house_ptr_frame"
+    <com.gzfgeh.ultrapulltorefresh.PtrFrameLayout1
+        android:id="@+id/rotate_header_list_view_frame"
         xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        cube_ptr:ptr_duration_to_close="300"
-        cube_ptr:ptr_duration_to_close_header="2000"
+        android:background="#000000"
+        cube_ptr:ptr_duration_to_close="200"
+        cube_ptr:ptr_duration_to_close_header="1000"
         cube_ptr:ptr_keep_header_when_refresh="true"
         cube_ptr:ptr_pull_to_fresh="false"
         cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
         cube_ptr:ptr_resistance="1.7">
 
-        <LinearLayout
-            android:id="@+id/store_house_ptr_image_content"
+        <ListView
+            android:id="@+id/rotate_header_list_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#33FFCC"
-            android:clickable="true"
-            android:padding="10dp">
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:choiceMode="singleChoice"
+            android:background="#FFFFFF" />
 
-            <ImageView
-                android:id="@+id/store_house_ptr_image"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/ic_launcher"
-                android:contentDescription="@string/hello_world" />
-        </LinearLayout>
-
-    </in.srain.cube.views.ptr.PtrFrameLayout>
+    </com.gzfgeh.ultrapulltorefresh.PtrFrameLayout1>
 </RelativeLayout>
